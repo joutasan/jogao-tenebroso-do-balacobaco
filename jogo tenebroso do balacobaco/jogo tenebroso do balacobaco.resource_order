@@ -19,7 +19,9 @@
   "ResourceOrderSettings":[
     {"name":"chao","order":2,"path":"objects/chao/chao.yy",},
     {"name":"persona","order":1,"path":"objects/persona/persona.yy",},
+    {"name":"wall","order":3,"path":"objects/wall/wall.yy",},
     {"name":"cenario","order":1,"path":"sprites/cenario/cenario.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
   ],
 }

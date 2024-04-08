@@ -36,11 +36,13 @@
   "resources":[
     {"id":{"name":"chao","path":"objects/chao/chao.yy",},},
     {"id":{"name":"persona","path":"objects/persona/persona.yy",},},
+    {"id":{"name":"wall","path":"objects/wall/wall.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Input_scr","path":"scripts/Input_scr/Input_scr.yy",},},
     {"id":{"name":"cenario","path":"sprites/cenario/cenario.yy",},},
     {"id":{"name":"personagem","path":"sprites/personagem/personagem.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
