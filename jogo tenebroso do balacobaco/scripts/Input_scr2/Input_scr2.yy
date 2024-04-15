@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Input_scr2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Input_scr2",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -6,8 +6,8 @@
   "name":"chao",
   "overriddenProperties":[],
   "parent":{
-    "name":"Cenas",
-    "path":"folders/Cenas.yy",
+    "name":"Catedral",
+    "path":"folders/Cenas/Catedral.yy",
   },
   "parentObjectId":null,
   "persistent":true,

@@ -1,5 +1,5 @@
-event_inherited();
-player = 1
+event_inherited()
+player = 0
 
 if(player == 1)
 {
