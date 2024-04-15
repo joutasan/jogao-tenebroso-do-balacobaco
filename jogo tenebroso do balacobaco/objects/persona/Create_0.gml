@@ -1,14 +1,4 @@
-event_inherited();
 player = 1
-
-if(player == 1)
-{
-	Input_scr()
-}
-else
-{
-	Input_scr2()
-}
 
 vspd = 0
 grav = 1

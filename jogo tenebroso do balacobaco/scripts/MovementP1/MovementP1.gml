@@ -1,4 +1,5 @@
 function MovementP1(){
+Input_scr()	
 if rk
 {
 	hspd= 10
@@ -13,7 +14,6 @@ if (!rk && !lk) || (rk && lk)
 {
 	hspd= 0
 }
-
 
 //Gravidade
 if (place_meeting(x,y+1,chao))

@@ -1,15 +1,16 @@
 // Os recursos de script mudaram para a v2.3.0; veja
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
 function MovementP2(){
+	Input_scr2()
 if rk
 {
 	hspd= 10
-	image_xscale =-0.2
+	image_xscale =-0.25
 }
 if lk
 {
 	hspd= -10
-	image_xscale =0.2
+	image_xscale =0.25
 }
 if (!rk && !lk) || (rk && lk)
 {
