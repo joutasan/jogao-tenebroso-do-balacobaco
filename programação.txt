@@ -1,0 +1,172 @@
+input_scr: 
+function Input_scr(){
+
+	rk = keyboard_check(vk_right)
+	lk = keyboard_check(vk_left)
+	uk = keyboard_check(vk_up)
+	dk = keyboard_check(vk_down)
+	ATK_K = mouse_check_button(mb_left)
+
+}
+
+input_scr2
+function Input_scr2(){
+
+	rk = keyboard_check(ord("D"))
+	lk = keyboard_check(ord("A"))
+	uk = keyboard_check(ord("W"))
+    dk = keyboard_check(ord("S"))
+	ATK_K = keyboard_check(ord("V"))
+	
+}
+
+movementp1
+function MovementP1(){
+Input_scr()	
+if rk
+{
+	hspd= 10
+	image_xscale =-2.5
+}
+if lk
+{
+	hspd= -10
+	image_xscale =2.5
+}
+if (!rk && !lk) || (rk && lk)
+{
+	hspd= 0
+}
+
+//Gravidade
+if (place_meeting(x,y+1,chao))
+{
+	vspd = 0
+	if uk
+	{		
+		persona.sprite_index = jump;
+		vspd= -30
+	}
+}
+else
+{
+	if vspd < 45 //Velocidade maxima de aceleração vertical
+	{
+		vspd += grav;
+		if vspd > 0
+		{
+				persona.sprite_index = fall;
+	    }
+	}
+}
+
+//colisor vertical
+if (place_meeting(x,y+vspd,chao))
+{
+	while (!place_meeting(x,y+sign(vspd), chao))
+	{
+		y+=sign(vspd);
+		persona.sprite_index = base;
+	}
+	vspd = 0
+}
+y+=vspd
+
+//colisor horizontal
+if (place_meeting(x+hspd,y,wall))
+{
+	while (!place_meeting(x+sign(hspd),y,wall))
+	{
+		x+=sign(hspd);
+	}
+	hspd=0
+	
+}
+x+=hspd
+}
+
+movementp2
+// Os recursos de script mudaram para a v2.3.0; veja
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 para obter mais informações
+function MovementP2(){
+	Input_scr2()
+if rk
+{
+	hspd= 10
+	image_xscale =-2.5
+}
+if lk
+{
+	hspd= -10
+	image_xscale =2.5
+}
+if (!rk && !lk) || (rk && lk)
+{
+	hspd= 0
+}
+
+
+//Gravidade
+if (place_meeting(x,y+1,chao))
+{
+	vspd = 0
+	if uk
+	{				
+		persona2.sprite_index = jump;
+		vspd= -30
+	}
+}
+else
+{
+	if vspd < 45 //Velocidade maxima de aceleração vertical
+	{
+		vspd += grav;
+		if vspd > 0
+		{
+				persona2.sprite_index = fall;
+	    }
+	}
+}
+
+//colisor vertical
+if (place_meeting(x,y+vspd,chao))
+{
+	while (!place_meeting(x,y+sign(vspd), chao))
+	{
+		y+=sign(vspd);
+		persona2.sprite_index = base;
+	}
+	vspd = 0
+}
+y+=vspd
+
+//colisor horizontal
+if (place_meeting(x+hspd,y,wall))
+{
+	while (!place_meeting(x+sign(hspd),y,wall))
+	{
+		x+=sign(hspd);
+	}
+	hspd=0
+	
+}
+x+=hspd
+}
+
+criar persona
+vspd = 0
+grav = 1
+hspd = 0
+vida = 10
+
+etapa persona
+MovementP1()
+
+criar persona2
+vspd = 0
+grav = 1
+hspd = 0
+vida = 10
+
+etapa persona2
+MovementP2()
