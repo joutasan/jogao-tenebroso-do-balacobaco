@@ -5,12 +5,12 @@ function MovementP2(){
 if rk
 {
 	hspd= 10
-	image_xscale =-0.25
+	image_xscale =-2.5
 }
 if lk
 {
 	hspd= -10
-	image_xscale =0.25
+	image_xscale =2.5
 }
 if (!rk && !lk) || (rk && lk)
 {
@@ -24,6 +24,7 @@ if (place_meeting(x,y+1,chao))
 	vspd = 0
 	if uk
 	{				
+		persona2.sprite_index = jump;
 		vspd= -30
 	}
 }
@@ -32,6 +33,10 @@ else
 	if vspd < 45 //Velocidade maxima de aceleração vertical
 	{
 		vspd += grav;
+		if vspd > 0
+		{
+				persona2.sprite_index = fall;
+	    }
 	}
 }
 
@@ -41,6 +46,7 @@ if (place_meeting(x,y+vspd,chao))
 	while (!place_meeting(x,y+sign(vspd), chao))
 	{
 		y+=sign(vspd);
+		persona2.sprite_index = base;
 	}
 	vspd = 0
 }

@@ -3,12 +3,12 @@ Input_scr()
 if rk
 {
 	hspd= 10
-	image_xscale =-0.2
+	image_xscale =-2.5
 }
 if lk
 {
 	hspd= -10
-	image_xscale =0.2
+	image_xscale =2.5
 }
 if (!rk && !lk) || (rk && lk)
 {
@@ -20,7 +20,8 @@ if (place_meeting(x,y+1,chao))
 {
 	vspd = 0
 	if uk
-	{				
+	{		
+		persona.sprite_index = jump;
 		vspd= -30
 	}
 }
@@ -29,6 +30,10 @@ else
 	if vspd < 45 //Velocidade maxima de aceleração vertical
 	{
 		vspd += grav;
+		if vspd > 0
+		{
+				persona.sprite_index = fall;
+	    }
 	}
 }
 
@@ -38,6 +43,7 @@ if (place_meeting(x,y+vspd,chao))
 	while (!place_meeting(x,y+sign(vspd), chao))
 	{
 		y+=sign(vspd);
+		persona.sprite_index = base;
 	}
 	vspd = 0
 }

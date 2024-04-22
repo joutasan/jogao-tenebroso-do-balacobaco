@@ -24,8 +24,11 @@
     {"name":"Input_scr2","order":1,"path":"scripts/Input_scr2/Input_scr2.yy",},
     {"name":"MovementP1","order":2,"path":"scripts/MovementP1/MovementP1.yy",},
     {"name":"MovementP2","order":3,"path":"scripts/MovementP2/MovementP2.yy",},
+    {"name":"base","order":3,"path":"sprites/base/base.yy",},
     {"name":"cenario","order":1,"path":"sprites/cenario/cenario.yy",},
+    {"name":"fall","order":5,"path":"sprites/fall/fall.yy",},
+    {"name":"jump","order":4,"path":"sprites/jump/jump.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
-    {"name":"Sprite4","order":3,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"soco","order":6,"path":"sprites/soco/soco.yy",},
   ],
 }
