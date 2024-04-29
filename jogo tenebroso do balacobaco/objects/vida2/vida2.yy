@@ -1,21 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"persona2",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"vida2",
+  "eventList":[],
   "managed":true,
-  "name":"persona2",
+  "name":"vida2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"mastermind",
-    "path":"objects/mastermind/mastermind.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"base",
-    "path":"sprites/base/base.yy",
+    "name":"koko",
+    "path":"sprites/koko/koko.yy",
   },
   "spriteMaskId":null,
   "visible":true,

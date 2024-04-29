@@ -1,5 +1,5 @@
 function MovementP1(){
-Input_scr()	
+input_scr()	
 if rk
 {
 	hspd= 10
