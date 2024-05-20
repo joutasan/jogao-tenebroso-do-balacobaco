@@ -17,6 +17,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"chao","order":1,"path":"objects/chao/chao.yy",},
+    {"name":"hit_obj","order":6,"path":"objects/hit_obj/hit_obj.yy",},
     {"name":"mastermind","order":5,"path":"objects/mastermind/mastermind.yy",},
     {"name":"persona","order":1,"path":"objects/persona/persona.yy",},
     {"name":"vida","order":2,"path":"objects/vida/vida.yy",},
@@ -29,8 +30,9 @@
     {"name":"base","order":3,"path":"sprites/base/base.yy",},
     {"name":"cenario","order":1,"path":"sprites/cenario/cenario.yy",},
     {"name":"fall","order":5,"path":"sprites/fall/fall.yy",},
+    {"name":"hit","order":9,"path":"sprites/hit/hit.yy",},
     {"name":"jump","order":4,"path":"sprites/jump/jump.yy",},
-    {"name":"koko","order":7,"path":"sprites/koko/koko.yy",},
+    {"name":"vidasprite","order":7,"path":"sprites/vidasprite/vidasprite.yy",},
     {"name":"soco","order":6,"path":"sprites/soco/soco.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],

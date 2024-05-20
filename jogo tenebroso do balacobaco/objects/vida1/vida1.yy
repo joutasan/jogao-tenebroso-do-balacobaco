@@ -9,7 +9,10 @@
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"vida",
+    "path":"objects/vida/vida.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"koko",
-    "path":"sprites/koko/koko.yy",
+    "name":"vidasprite",
+    "path":"sprites/vidasprite/vidasprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,
