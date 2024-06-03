@@ -6,3 +6,8 @@ else
 {
     MovementP2();
 }
+
+if (hp <= 0)
+{
+	instance_destroy();
+}

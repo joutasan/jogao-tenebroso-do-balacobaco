@@ -1,4 +1,6 @@
-if (other.id != creator)
+if (other.id != creator && canHit)
 {
-	other.hp = -dano
+	canHit = false
+	instance_destroy();
+	other.hp -= 1;
 }
