@@ -6,17 +6,25 @@ if rk
 {
 	hspd= 10
 	image_xscale =-2.5
+	direcao = 1
 }
 if lk
 {
 	hspd= -10
 	image_xscale =2.5
+	direcao = 0
 }
 if (!rk && !lk) || (rk && lk)
 {
 	hspd= 0
 }
+if atk_k && canAttack
+{
+	persona2.sprite_index = soco
+	canAttack = false
+	alarm[0] = 60
 
+}
 
 //Gravidade
 if (place_meeting(x,y+1,chao))

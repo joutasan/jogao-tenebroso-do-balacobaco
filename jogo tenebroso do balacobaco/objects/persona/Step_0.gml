@@ -7,6 +7,11 @@ else
     MovementP2();
 }
 
+if (hp <= 0)
+{
+	instance_destroy();
+}
+
 if (sprite_index == soco)
 {
 	if (image_index > 0 && canHit)
@@ -18,7 +23,7 @@ if (sprite_index == soco)
 			}
 			else
 			{
-				instance_create_layer(x-140, y-20, "Instances_1", hit_obj);
+				Atkhit = instance_create_layer(x-140, y-20, "Instances_1", hit_obj);
 			}
 			canHit = false
 			Atkhit.creator = id
