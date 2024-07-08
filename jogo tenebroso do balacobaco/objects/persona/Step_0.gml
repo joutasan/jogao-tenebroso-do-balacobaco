@@ -10,6 +10,7 @@ else
 if (hp <= 0)
 {
 	instance_destroy();
+	audio_play_sound(Sound2,0,true)
 }
 
 if (sprite_index == soco)

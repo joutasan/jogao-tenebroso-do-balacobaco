@@ -36,5 +36,5 @@
     "path":"sprites/hit/hit.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

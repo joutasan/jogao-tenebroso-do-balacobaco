@@ -19,6 +19,8 @@
   "height":583,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"7fbccd3c-891e-4a14-9c1f-812b7e5b5724","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"7fbccd3c-891e-4a14-9c1f-812b7e5b5724","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f429af51-4c92-46ba-abdb-54c8af7a49f1","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f429af51-4c92-46ba-abdb-54c8af7a49f1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"30cf9353-9c51-4f43-9c89-855cd1f3edfb","blendMode":0,"displayName":"default","isLocked":false,"name":"30cf9353-9c51-4f43-9c89-855cd1f3edfb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Sprite9_3",

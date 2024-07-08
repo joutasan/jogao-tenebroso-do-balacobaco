@@ -4,12 +4,14 @@
 // Inherit the parent event
 event_inherited();
 
-if (instance_exists(objeto_controles))
+if (instance_exists(controles))
 {
-	instance_destroy(objeto_controles);
+	instance_destroy(controles);
 }
 
 else
 {
-	instance_create_layer(room_width / 2, room_height - 100, "Instances", objeto_controles);
+	instance_create_layer(480, 576, "Instances", controles);
+	controles.image_xscale = 0.5
+	controles.image_yscale = 0.5
 }

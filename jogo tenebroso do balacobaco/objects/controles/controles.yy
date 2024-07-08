@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"botaohelp_1",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"controles",
+  "eventList":[],
   "managed":true,
-  "name":"botaohelp_1",
+  "name":"controles",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
     "path":"folders/Objetos.yy",
   },
-  "parentObjectId":{
-    "name":"objeto_botao_pai",
-    "path":"objects/objeto_botao_pai/objeto_botao_pai.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9_1",
-    "path":"sprites/Sprite9_1/Sprite9_1.yy",
+    "name":"Sprite9_3",
+    "path":"sprites/Sprite9_3/Sprite9_3.yy",
   },
   "spriteMaskId":null,
   "visible":true,
