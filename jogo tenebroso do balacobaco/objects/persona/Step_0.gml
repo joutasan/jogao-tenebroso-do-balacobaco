@@ -7,10 +7,11 @@ else
     MovementP2();
 }
 
-if (hp <= 0)
+if (hp <= 0 && dead == 0)
 {
 	instance_destroy();
-	audio_play_sound(Sound2,0,true)
+	audio_play_sound(Sound2,0,false)
+	dead = 1
 }
 
 if (sprite_index == soco)
