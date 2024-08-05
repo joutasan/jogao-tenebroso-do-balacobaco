@@ -20,7 +20,7 @@ if atk_k && canAttack
 {
 	persona.sprite_index = soco
 	canAttack = false
-	alarm[0] = 60
+	alarm[0] = 40
 
 }
 //Gravidade

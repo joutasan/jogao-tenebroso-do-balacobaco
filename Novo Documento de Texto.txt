@@ -1,0 +1,7 @@
+gamepad_set_axis_deadzone(0, .005)
+		
+		rk = (gamepad_axis_value(0, gp_axisrh) > 0.5)
+		lk = (gamepad_axis_value(0, gp_axislh) < 0.5)
+		uk = (gamepad_axis_value(0, gp_axislv) > 0.5)
+		dk = (gamepad_axis_value(0, gp_axislv) < 0.5)
+		atk_k = mouse_check_button(mb_left)
