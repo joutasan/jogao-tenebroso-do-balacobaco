@@ -14,6 +14,7 @@
     {"name":"Sequências","order":9,"path":"folders/Sequências.yy",},
     {"name":"Shaders","order":4,"path":"folders/Shaders.yy",},
     {"name":"Sons","order":14,"path":"folders/Sons.yy",},
+    {"name":"Sprites","order":2,"path":"folders/Sons/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"Font1","order":1,"path":"fonts/Font1/Font1.yy",},
