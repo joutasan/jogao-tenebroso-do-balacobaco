@@ -41,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"base",
-    "path":"sprites/base/base.yy",
+    "name":"base1",
+    "path":"sprites/base1/base1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

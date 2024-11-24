@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9_2",
-    "path":"sprites/Sprite9_2/Sprite9_2.yy",
+    "name":"exitsprite",
+    "path":"sprites/exitsprite/exitsprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"vazio",
+    "path":"sprites/vazio/vazio.yy",
   },
   "spriteMaskId":null,
   "visible":true,

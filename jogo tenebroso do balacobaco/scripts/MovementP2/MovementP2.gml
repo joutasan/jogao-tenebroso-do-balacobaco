@@ -20,7 +20,7 @@ if (!rk && !lk) || (rk && lk)
 }
 if atk_k && canAttack
 {
-	persona2.sprite_index = soco
+	persona2.sprite_index = soco1
 	canAttack = false
 	alarm[0] = 60
 
@@ -32,7 +32,7 @@ if (place_meeting(x,y+1,chao))
 	vspd = 0
 	if uk
 	{				
-		persona2.sprite_index = jump;
+		persona2.sprite_index = jump1;
 		vspd= -30
 	}
 }
@@ -43,7 +43,7 @@ else
 		vspd += grav;
 		if vspd > 0
 		{
-				persona2.sprite_index = fall;
+				persona2.sprite_index = fall1;
 	    }
 	}
 }
@@ -54,7 +54,7 @@ if (place_meeting(x,y+vspd,chao))
 	while (!place_meeting(x,y+sign(vspd), chao))
 	{
 		y+=sign(vspd);
-		persona2.sprite_index = base;
+		persona2.sprite_index = base1;
 	}
 	vspd = 0
 }

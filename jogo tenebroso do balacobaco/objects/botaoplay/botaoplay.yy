@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite9",
-    "path":"sprites/Sprite9/Sprite9.yy",
+    "name":"playsprite",
+    "path":"sprites/playsprite/playsprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

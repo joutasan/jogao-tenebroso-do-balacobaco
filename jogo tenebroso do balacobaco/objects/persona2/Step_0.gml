@@ -14,7 +14,7 @@ if (hp <= 0 && dead == 0)
 	dead = 1
 }
 
-if (sprite_index == soco)
+if (sprite_index == soco1)
 {
 	if (image_index > 0 && canHit)
 	{
