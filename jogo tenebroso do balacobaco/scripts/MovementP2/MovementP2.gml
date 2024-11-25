@@ -5,13 +5,13 @@ function MovementP2(){
 if rk
 {
 	hspd= 10
-	image_xscale =-2.5
+	image_xscale =-5
 	direcao = 1
 }
 if lk
 {
 	hspd= -10
-	image_xscale =2.5
+	image_xscale =5
 	direcao = 0
 }
 if (!rk && !lk) || (rk && lk)
@@ -20,9 +20,9 @@ if (!rk && !lk) || (rk && lk)
 }
 if atk_k && canAttack
 {
-	persona2.sprite_index = soco1
+	persona2.sprite_index = soco2
 	canAttack = false
-	alarm[0] = 60
+	alarm[0] = 43
 
 }
 
@@ -32,7 +32,7 @@ if (place_meeting(x,y+1,chao))
 	vspd = 0
 	if uk
 	{				
-		persona2.sprite_index = jump1;
+		persona2.sprite_index = jump2;
 		vspd= -30
 	}
 }
@@ -43,7 +43,7 @@ else
 		vspd += grav;
 		if vspd > 0
 		{
-				persona2.sprite_index = fall1;
+				persona2.sprite_index = fall2;
 	    }
 	}
 }
@@ -54,7 +54,7 @@ if (place_meeting(x,y+vspd,chao))
 	while (!place_meeting(x,y+sign(vspd), chao))
 	{
 		y+=sign(vspd);
-		persona2.sprite_index = base1;
+		persona2.sprite_index = base2;
 	}
 	vspd = 0
 }

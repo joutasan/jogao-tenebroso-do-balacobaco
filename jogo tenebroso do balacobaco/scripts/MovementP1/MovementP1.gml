@@ -3,13 +3,13 @@ input_scr()
 if rk
 {
 	hspd= 10
-	image_xscale =-2.5
+	image_xscale =-5
 	direcao = 1 
 }
 if lk
 {
 	hspd= -10
-	image_xscale =2.5
+	image_xscale =5
 	direcao = 0
 }
 if (!rk && !lk) || (rk && lk)
@@ -20,7 +20,7 @@ if atk_k && canAttack
 {
 	persona.sprite_index = soco1
 	canAttack = false
-	alarm[0] = 40
+	alarm[0] = 43
 
 }
 //Gravidade
@@ -38,7 +38,7 @@ else
 	if vspd < 45 //Velocidade maxima de aceleração vertical
 	{
 		vspd += grav;
-		if vspd > 0
+		if vspd > 0 && persona.sprite_index != jump1
 		{
 				persona.sprite_index = fall1;
 	    }
