@@ -6,8 +6,8 @@
   "name":"wall",
   "overriddenProperties":[],
   "parent":{
-    "name":"Catedral",
-    "path":"folders/Cenas/Catedral.yy",
+    "name":"gaming",
+    "path":"folders/Cenas/gaming.yy",
   },
   "parentObjectId":null,
   "persistent":true,

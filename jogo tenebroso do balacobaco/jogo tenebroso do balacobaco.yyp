@@ -13,7 +13,7 @@
     {"$GMFolder":"","%Name":"Anotações","folderPath":"folders/Anotações.yy","name":"Anotações","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Caminhos","folderPath":"folders/Caminhos.yy","name":"Caminhos","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Cenas","folderPath":"folders/Cenas.yy","name":"Cenas","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Catedral","folderPath":"folders/Cenas/Catedral.yy","name":"Catedral","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"gaming","folderPath":"folders/Cenas/gaming.yy","name":"gaming","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy","name":"Conjuntos de tiles","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Curvas da animação","folderPath":"folders/Curvas da animação.yy","name":"Curvas da animação","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fontes","folderPath":"folders/Fontes.yy","name":"Fontes","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -31,7 +31,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.2.0.132",
   },
   "name":"jogo tenebroso do balacobaco",
   "resources":[
@@ -56,6 +56,7 @@
     {"id":{"name":"wall","path":"objects/wall/wall.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"primeiracena","path":"rooms/primeiracena/primeiracena.yy",},},
+    {"id":{"name":"segundacena","path":"rooms/segundacena/segundacena.yy",},},
     {"id":{"name":"Input_scr","path":"scripts/Input_scr/Input_scr.yy",},},
     {"id":{"name":"Input_scr2","path":"scripts/Input_scr2/Input_scr2.yy",},},
     {"id":{"name":"MovementP1","path":"scripts/MovementP1/MovementP1.yy",},},
@@ -78,6 +79,7 @@
     {"id":{"name":"soco1","path":"sprites/soco1/soco1.yy",},},
     {"id":{"name":"soco2","path":"sprites/soco2/soco2.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
+    {"id":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},},
     {"id":{"name":"titulosprite","path":"sprites/titulosprite/titulosprite.yy",},},
     {"id":{"name":"vazio","path":"sprites/vazio/vazio.yy",},},
     {"id":{"name":"vidasprite","path":"sprites/vidasprite/vidasprite.yy",},},
@@ -87,6 +89,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"primeiracena","path":"rooms/primeiracena/primeiracena.yy",},},
+    {"roomId":{"name":"segundacena","path":"rooms/segundacena/segundacena.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
