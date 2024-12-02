@@ -1,3 +1,6 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
-sprite_index = base2;
+if (sprite_index == soco2)
+{
+	sprite_index = base2;
+}

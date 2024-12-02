@@ -13,6 +13,11 @@ if (hp <= 0 && dead == 0)
 	audio_play_sound(Sound2,0,false)
 	dead = 1
 }
+if dead == 1
+{
+	persona2.wins += 1
+	alarm[1] = 20
+}
 
 if (sprite_index == soco1)
 {

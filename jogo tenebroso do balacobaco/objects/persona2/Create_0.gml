@@ -9,3 +9,4 @@ grav = 1
 hspd = 0
 hp = 6
 dead = 0
+wins = 0
